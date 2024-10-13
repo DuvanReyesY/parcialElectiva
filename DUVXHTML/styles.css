@@ -10,7 +10,8 @@ body{
     font-variation-settings:
       "wdth" 100;
 }
-.titulo p{
+.titulo {
+    display: flex;
     font-family: "Sansita Swashed", system-ui;
     text-align: left;
     text-decoration: none;
@@ -19,6 +20,16 @@ body{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+}
+.titulo img{
+    max-width: 30%;
+    padding: 10px 0;
+    height: 5%;
+    width: 5%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    align-items: left;
 }
 
 nav ul{
